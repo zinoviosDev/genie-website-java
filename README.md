@@ -17,9 +17,20 @@
 git clone https://github.com/dockersamples/genie-website-java
 ```
 
+## Step 2. Building the JAR file
+
+Use the Spring Tool Suite to build the JAR file
+
+![image](https://user-images.githubusercontent.com/313480/183990655-46329371-6c27-484f-a66b-fdfcd7efbb0a.png)
+
+![image](https://user-images.githubusercontent.com/313480/183990719-41814631-0ca2-4178-889d-6cddf4875c83.png)
+
+
+
 ## Step 2. Building docker image
 
-I assume that target/webapp-0.0.1-SNAPSHOT.jar is already built and available.
+I assume that you have already followed step 2 to build ```webapp-0.0.1-SNAPSHOT.jar``` file under the target directory.
+
 
 ```
 docker build -t docker_desktop_page .
