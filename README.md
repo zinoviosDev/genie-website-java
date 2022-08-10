@@ -27,7 +27,7 @@ Use the Spring Tool Suite to build the JAR file
 
 
 
-## Step 2. Building docker image
+## Step 3. Building docker image
 
 I assume that you have already followed step 2 to build ```webapp-0.0.1-SNAPSHOT.jar``` file under the target directory.
 
@@ -36,7 +36,7 @@ I assume that you have already followed step 2 to build ```webapp-0.0.1-SNAPSHOT
 docker build -t docker_desktop_page .
 ```
 
-## Step 3. Running the docker container
+## Step 4. Running the docker container
 ```
 docker run -p 8080:8080 docker_desktop_page
 ```
