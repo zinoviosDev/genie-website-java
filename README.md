@@ -2,9 +2,10 @@
 
 ## Prerequisite
 
-- JDK 17 or above 
+- JDK 17 or above
 - Spring Tool Suite for Eclipse
 - Docker Desktop
+
 
 
 ## Getting Started
@@ -17,6 +18,8 @@ git clone https://github.com/dockersamples/genie-website-java
 ```
 
 ## Step 2. Building docker image
+
+I assume that target/webapp-0.0.1-SNAPSHOT.jar is already built and available.
 
 ```
 docker build -t docker_desktop_page .
